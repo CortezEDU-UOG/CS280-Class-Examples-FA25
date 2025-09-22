@@ -1,0 +1,3 @@
+Hello, File I/O!
+This little file has three lines.
+Exceptions matter when files go missing.

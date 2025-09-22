@@ -1,0 +1,5 @@
+Summary for: input_contents.txt
+Lines: 3
+Words: 15
+Chars: 89
+Non-empty: 3
