@@ -2,8 +2,9 @@ public class ExceptionsCaughtExample {
     public static void main(String[] args) {
         String[] myStrings = {"Hello", "", "Hola", "Hafa adai", "Kamusta", ""};
         for (String message : myStrings) {
+            String m;
             try {
-                ExceptionThrownExample.exceptionThrown(message);
+                m = ExceptionThrownExample.exceptionThrown(message);
             } catch (IllegalArgumentException e) {
                 // save the message to an error log file
                 System.out.println(e.getMessage());
@@ -11,7 +12,7 @@ public class ExceptionsCaughtExample {
             }
 
             // Do this other thing if no exceptions caught
-            System.out.println("No exceptions: " + message);
+            System.out.println(m + " No exceptions: " + message);
         }
         
         
