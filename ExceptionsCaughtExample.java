@@ -7,7 +7,7 @@ public class ExceptionsCaughtExample {
             } catch (IllegalArgumentException e) {
                 // save the message to an error log file
                 System.out.println(e.getMessage());
-                continue;
+                continue; // go back to start of loop
             }
 
             // Do this other thing if no exceptions caught
